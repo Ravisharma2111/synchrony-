@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+body .recharts-tooltip-wrapper ul li span {
+  position: initial !important;
+  max-width: initial !important;
+}
+body .recharts-tooltip-wrapper .recharts-default-tooltip {
+  background-color: #101116e0 !important;
+    border: 1px solid #14151d !important;
+    border-radius: 4px;
+  padding: 4px 10px !important;
+}
+
+body .recharts-tooltip-wrapper .recharts-default-tooltip p {
+  color: #fff !important;
+}
+
+.treetableMain .treeTable{
+  border-radius: 0 0 8px 8px !important;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.treetableMain .treeTable{
+  border-radius: 0 0 8px 8px !important;
+}
+.anoytableMain .treetableMain tbody tr:first-child td {
+  border-bottom: none;
+}
+/* .treetableMain{border-radius: 8px; border: 1px solid #242636;} */
+
+.test {
+  padding: 2em;
+  background-color: white;
+}
